@@ -20,7 +20,7 @@ public class SimulatorUI extends JFrame {
         setLayout(new BorderLayout());
 
         JPanel inputPanel = new JPanel(new GridLayout(0, 3, 5, 5));
-        csvField = new JTextField("/Users/pranaynookala/SimulatedTrader/cpp_engine/data/SPX.csv");
+        csvField = new JTextField("../../cpp_engine/data/SPX.csv");
         csvBrowseButton = new JButton("Browse");
         csvBrowseButton.addActionListener(e -> chooseFile(csvField));
         inputPanel.add(new JLabel("CSV File:"));

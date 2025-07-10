@@ -1,8 +1,8 @@
 {
-  "csv_file": "/Users/pranaynookala/SimulatedTrader/cpp_engine/data/SPX.csv",
+  "csv_file": "/Users/pranaynookala/SimulatedTrader/java_ui/src/../../cpp_engine/data/SPX.csv",
   "short_ma_window": 50,
   "long_ma_window": 200,
-  "short_ma_type": "WMA",
+  "short_ma_type": "SMA",
   "long_ma_type": "SMA",
   "initial_capital": 10000,
   "flat_fee": 5.0,
